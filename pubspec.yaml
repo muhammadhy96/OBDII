@@ -11,7 +11,10 @@ dependencies:
   flutter:
     sdk: flutter
 
-  flutter_bluetooth_serial: ^0.4.0
+  flutter_bluetooth_serial:
+    git:
+      url: https://github.com/muhammadhy96/flutter_bluetooth_serial.git
+      ref: master
   math_expressions: ^2.3.0
 
 
